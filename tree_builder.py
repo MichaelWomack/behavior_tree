@@ -97,9 +97,3 @@ class TreeBuilder():
 
             file = file[next_node_index:]
         return num_tags_to_catch
-
-
-tree = TreeBuilder()
-tree.build_tree(tree.file, tree.root)
-print("\nBehavior Tree Loaded...\n")
-tree.root.print()

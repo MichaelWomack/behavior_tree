@@ -8,7 +8,6 @@ class TreeNode:
         self.parent = parent
         self.children = []
 
-
     def print(self, iteration=0):
         print('\t' * iteration + self.__str__())
 
